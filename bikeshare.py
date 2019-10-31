@@ -267,13 +267,13 @@ def user_stats(df, city):
 
     # asking the user if he wants to get the most recent birth year
     while True:
-          recent_year= input("Do you want to get the most recent birth year ? yes/no \n ").lower()
-          if recent_year=="yes":
+          lastest_year= input("Do you want to get the most recent birth year ? yes/no \n ").lower()
+          if lastest_year=="yes":
             # Display most recent year of birth
             print("The most recent birth year is: {}".format(
             str(int(df['Birth Year'].max()))))
             break
-          elif recent_year=="no":
+          elif lastest_year=="no":
             break
 
     # asking the user if he wants to get the most common birth year
