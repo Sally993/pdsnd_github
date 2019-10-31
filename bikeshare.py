@@ -267,18 +267,18 @@ def user_stats(df, city):
 
     # asking the user if he wants to get the most recent birth year
     while True:
-          recent_year= input("Do you want to get the most recent birth year ? yes/no \n ").lower()
-          if recent_year=="yes":
+          lastest_year= input("Do you want to get the most recent birth year ? yes/no \n ").lower()
+          if lastest_year=="yes":
             # Display most recent year of birth
             print("The most recent birth year is: {}".format(
             str(int(df['Birth Year'].max()))))
             break
-          elif recent_year=="no":
+          elif lastest_year=="no":
             break
 
     # asking the user if he wants to get the most common birth year
     while True:
-          year_mode= input("Do you want to get the most common birth year ? yes/no \n ").lower()
+          year_mode= input("Do you want to get the most common birth year ? yes/no ? \n ").lower()
           if year_mode=="yes":
              # Display most common year of birth
              print("The most common birth year is: {}".format(
@@ -291,7 +291,7 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def display_data(df):
+def print_data(df):
     """
     Display contents of the CSV file to the display as requested by
     the user.
@@ -322,7 +322,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
-        display_data(df)
+        print_data(df)
         # asking the user if he wants to restart the program
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
