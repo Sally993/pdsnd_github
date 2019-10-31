@@ -278,7 +278,7 @@ def user_stats(df, city):
 
     # asking the user if he wants to get the most common birth year
     while True:
-          year_mode= input("Do you want to get the most common birth year ? yes/no \n ").lower()
+          year_mode= input("Do you want to get the most common birth year ? yes/no ? \n ").lower()
           if year_mode=="yes":
              # Display most common year of birth
              print("The most common birth year is: {}".format(
