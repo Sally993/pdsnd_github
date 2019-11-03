@@ -13,7 +13,10 @@ in raw input to create an interactive experience in the terminal
 to present these statistics.
 
 ### Files used
-Include the files used
+Bikeshare.py
+Chicago.css
+Washington.css
+New_york.css
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
