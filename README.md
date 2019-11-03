@@ -19,5 +19,12 @@ Washington.css
 New_york.css
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+- geeksforgeeks
+- digitaloccean
+- cmdlinetips
+- pandas.py data
+- udacity
+- realPython
+- pyformat
+- data science made simple
 
